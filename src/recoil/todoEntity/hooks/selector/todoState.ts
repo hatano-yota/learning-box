@@ -1,7 +1,7 @@
+import { todoDescriptionState } from "@/recoil/todoEntity/hooks/atom/todoDescription";
 import { todoIdsState } from "@/recoil/todoEntity/hooks/atom/todoIds";
-import { todoDescriptionState } from "@/recoil/todoEntity/hooks/atomFamily/todoDescription";
-import { todoIsDoneState } from "@/recoil/todoEntity/hooks/atomFamily/todoIsDone";
-import { todoTitleState } from "@/recoil/todoEntity/hooks/atomFamily/todoTitle";
+import { todoIsDoneState } from "@/recoil/todoEntity/hooks/atom/todoIsDone";
+import { todoTitleState } from "@/recoil/todoEntity/hooks/atom/todoTitle";
 import { Todo, TodoId } from "@/recoil/todoEntity/types/Type";
 import { DefaultValue, selectorFamily } from "recoil";
 

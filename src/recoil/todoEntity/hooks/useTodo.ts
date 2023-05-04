@@ -1,5 +1,5 @@
 import { todoIdsState } from "@/recoil/todoEntity/hooks/atom/todoIds";
-import { todoState } from "@/recoil/todoEntity/hooks/selectorFamily/todoState";
+import { todoState } from "@/recoil/todoEntity/hooks/selector/todoState";
 import { Todo, TodoId } from "@/recoil/todoEntity/types/Type";
 import { useRecoilCallback } from "recoil";
 
