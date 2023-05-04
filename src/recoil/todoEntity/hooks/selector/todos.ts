@@ -1,6 +1,6 @@
-import { Todo } from "@/recoil/todoApp/types/Type";
 import { todoIdsState } from "@/recoil/todoEntity/hooks/atom/todoIds";
 import { todoState } from "@/recoil/todoEntity/hooks/selectorFamily/todoState";
+import { Todo } from "@/recoil/todoEntity/types/Type";
 import { selector } from "recoil";
 
 export const TodosState = selector<Todo[]>({

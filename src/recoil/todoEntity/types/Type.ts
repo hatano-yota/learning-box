@@ -1,4 +1,4 @@
-export type TodoId = number;
+export type TodoId = string;
 export type TodoTitle = string;
 export type TodoDescription = string;
 export type TodoIsDone = boolean;
