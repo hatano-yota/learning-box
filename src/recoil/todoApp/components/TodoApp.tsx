@@ -1,7 +1,7 @@
-import SearchForm from "@/components/recoil/todoApp/SearchForm";
-import TitleForm from "@/components/recoil/todoApp/TitleForm";
-import TodoAddButton from "@/components/recoil/todoApp/TodoAddButton";
-import TodoList from "@/components/recoil/todoApp/TodoList";
+import SearchForm from "@/recoil/todoApp/components/SearchForm";
+import TitleForm from "@/recoil/todoApp/components/TitleForm";
+import TodoAddButton from "@/recoil/todoApp/components/TodoAddButton";
+import TodoList from "@/recoil/todoApp/components/TodoList";
 
 const TodoApp = (): JSX.Element => {
   // useStateでも十分実装できそう

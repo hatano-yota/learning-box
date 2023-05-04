@@ -1,9 +1,9 @@
-import Demo1 from "@/components/react-hook-form/Demo1";
-import Demo2 from "@/components/react-hook-form/Demo2";
-import Demo3 from "@/components/react-hook-form/Demo3";
-import Demo4 from "@/components/react-hook-form/Demo4";
-import Demo5 from "@/components/react-hook-form/Demo5";
-import Demo6 from "@/components/react-hook-form/Demo6";
+import Demo1 from "@/react-hook-form/Demo1";
+import Demo2 from "@/react-hook-form/Demo2";
+import Demo3 from "@/react-hook-form/Demo3";
+import Demo4 from "@/react-hook-form/Demo4";
+import Demo5 from "@/react-hook-form/Demo5";
+import Demo6 from "@/react-hook-form/Demo6";
 import { NextPage } from "next";
 
 const ReactHookFormPage: NextPage = () => {

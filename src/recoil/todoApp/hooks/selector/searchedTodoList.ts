@@ -1,6 +1,6 @@
-import { searchTextFormState } from "@/hooks/atom/todoApp/searchTextForm";
-import { todoListState } from "@/hooks/atom/todoApp/todoList";
-import { Todo } from "@/types/Type";
+import { searchTextFormState } from "@/recoil/todoApp/hooks/atom/searchTextForm";
+import { todoListState } from "@/recoil/todoApp/hooks/atom/todoList";
+import { Todo } from "@/recoil/todoApp/types/Type";
 import { selector } from "recoil";
 
 export const searchedTodoListSelector = selector<Todo[]>({

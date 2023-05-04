@@ -1,5 +1,5 @@
-import { searchedTodoListSelector } from "@/hooks/selector/todoApp/searchedTodoList";
-import { Todo } from "@/types/Type";
+import { searchedTodoListSelector } from "@/recoil/todoApp/hooks/selector/searchedTodoList";
+import { Todo } from "@/recoil/todoApp/types/Type";
 import { useRecoilValue } from "recoil";
 
 const TodoList = (): JSX.Element => {

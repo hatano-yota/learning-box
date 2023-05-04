@@ -1,5 +1,5 @@
-import { todoListState } from "@/hooks/atom/todoApp/todoList";
-import { todoTitleFormState } from "@/hooks/atom/todoApp/todoTitleForm";
+import { todoListState } from "@/recoil/todoApp/hooks/atom/todoList";
+import { todoTitleFormState } from "@/recoil/todoApp/hooks/atom/todoTitleForm";
 import { useCallback } from "react";
 import { useRecoilState } from "recoil";
 

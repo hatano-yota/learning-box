@@ -1,4 +1,4 @@
-import TodoApp from "@/components/recoil/todoApp/TodoApp";
+import TodoApp from "@/recoil/todoApp/components/TodoApp";
 import { NextPage } from "next";
 import { RecoilRoot } from "recoil";
 

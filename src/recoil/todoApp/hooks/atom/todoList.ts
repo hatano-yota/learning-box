@@ -1,4 +1,4 @@
-import { Todo } from "@/types/Type";
+import { Todo } from "@/recoil/todoApp/types/Type";
 import { atom } from "recoil";
 
 export const todoListState = atom<Todo[]>({
