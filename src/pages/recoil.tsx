@@ -1,5 +1,6 @@
-import TodoApp from "@/recoil/todoApp/components/TodoApp";
-import TodoEntity from "@/recoil/todoEntity/components/TodoEntity";
+import InfiniteScrollSample from "@/recoil/infinite-scroll-sample/InfiniteScrollSample";
+import TodoApp from "@/recoil/todoApp/TodoApp";
+import TodoEntity from "@/recoil/todoEntity/TodoEntity";
 import { NextPage } from "next";
 import { RecoilRoot } from "recoil";
 
@@ -10,8 +11,11 @@ const RecoilPage: NextPage = () => {
         <div>
           <TodoApp />
         </div>
-        <div className="mt-8">
+        <div className="mt-40">
           <TodoEntity />
+        </div>
+        <div className="mt-40">
+          <InfiniteScrollSample />
         </div>
       </main>
     </RecoilRoot>
