@@ -13,6 +13,8 @@
     "@emotion/styled": "^11.10.6",
     "@hookform/error-message": "^2.0.1",
     "@mui/material": "^5.12.2",
+    "@nextui-org/react": "^1.0.0-beta.12",
+    "@swc/helpers": "^0.5.1",
     "@types/node": "18.16.1",
     "@types/react": "18.2.0",
     "@types/react-dom": "18.2.1",

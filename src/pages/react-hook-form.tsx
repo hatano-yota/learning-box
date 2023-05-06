@@ -4,6 +4,7 @@ import Demo3 from "@/react-hook-form/Demo3";
 import Demo4 from "@/react-hook-form/Demo4";
 import Demo5 from "@/react-hook-form/Demo5";
 import Demo6 from "@/react-hook-form/Demo6";
+import Demo7 from "@/react-hook-form/selectModal/Demo7";
 import { NextPage } from "next";
 
 const ReactHookFormPage: NextPage = () => {
@@ -26,6 +27,9 @@ const ReactHookFormPage: NextPage = () => {
       </div>
       <div className="mt-6">
         <Demo6 />
+      </div>
+      <div className="mt-6">
+        <Demo7 />
       </div>
     </main>
   );
